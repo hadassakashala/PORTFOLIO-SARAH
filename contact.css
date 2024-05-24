@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f051e;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    padding-top: 20px;
+    z-index: 100;
+
+}
+h5{
+    color: #0ef;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to left, #4200fc, #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header nav .lien a{
+    color: white;
+    margin-left: 40px;
+    position: relative;
+}
+header nav .lien a::after{
+    content:'';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background:linear-gradient(to left, #4200fc, #f901fc) ;
+    transition: .3s;
+}
+header nav .lien a:hover::after{
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    box-shadow: 0 10px 20px rgb(204, 204, 204, 1);
+    padding: 15px;
+}
+.formulaire{
+    background-color: rgb(204, 204, 204);
+    width: 400px;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 100px;
+    
+    
+
+}
+input{
+    padding: 3px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-top: none;
+    border: #f901fc 1px solid;
+    padding: 4px;
+    
+}
+textarea{
+    margin-bottom: 15px;
+    border: #f901fc 1px solid;
+    padding: 5px;
+}
+.bt{
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+h5{
+    font-size: 25px;
+}
+.cont{
+    color: white;
+    margin-top: 50px;
+    border-left: 1px solid white;
+    width: 500px;
+    padding-left: 100px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.cntn{
+    margin-top: 50px;
+}
+.dr{
+    margin-bottom: 20px;
+}
